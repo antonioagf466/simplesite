@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-size: 1.5em;
+    background-color: rgba(163, 238, 238, 0.842);
+}
+#buttondiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+button {
+    border-radius: 20px;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 5vh;
+    }
+button:hover{
+    background-color: blueviolet;
+}
+
+a {
+    text-decoration: none;
+    color: black; /* default color */
+    }

@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-size: 1.5em;
+    background-color: rgba(163, 238, 238, 0.842);
+}
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: coral;
+}
+#stop-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#controls button{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    min-width: 125px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: blueviolet;
+    transition: background-color 0.5 ease;
+    
+}
+#display{
+    font-size: 3rem;
+    font-family: monospace;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 25px;
+    
+}
+
+#controls button:hover{
+    background-color: rgb(231, 114, 78);
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    border: none;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    
+
+}

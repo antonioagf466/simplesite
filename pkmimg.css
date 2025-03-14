@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+#pkmsprite{
+    min-width: 350px;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgba(163, 238, 238, 0.842);
+    font-size: 2em;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button[type="submit"]{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: aquamarine;
+}
+#pkmname{
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 35vh;
+    min-width: 25%;
+}
+button[type="submit"]:hover{
+    background-color: azure;
+}
+
+#headerpkm{
+    display: flex;
+    justify-content: center;
+}
